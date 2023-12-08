@@ -30,6 +30,50 @@ The distribution for this exercise is Ubuntu 22.04 LTS. For each of the commands
 
    ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/7316087e-c612-4f79-9c4b-3ef8588ebe91)
 
+5. **vim** - It has two uses.First, it can be used to edit file. It is a text editor in Linux. It can also be used to create file.
+   For example, to use the commnad *vim* to edit *file1* created earlier, type *vim file1*.
+
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/c1554a8a-0174-4ccc-b421-99f653acd023)
+
+   After pressing the return button, the screen will switch into editor mode, then press *i* on your keyboard to be able to enter text in the file
+
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/c0acbd06-6733-45cc-871e-88ef7b2e97f9)
+
+   To use *vim* to create a new file, for example, *file2*, type *vim file2*
+
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/d33cb936-f271-4091-aaf3-3a0cb6290c38)
+   
+   Press the return button and then *i* and enter text in the file.To exit the file, press *Esc* on the keyboard, and enter *:wq*
+
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/f8760fc5-267a-4130-a29d-cc428721980f)
+
+6. **:wq** - This will save the text entered in the file and also create the file. Using the command *ls* will help to confirm that the file has been created as shown below.
+
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/a8c337cc-17e3-4fff-ac77-d095bc0c27f7)
+
+7. **cat** - This command is called the concatenate command. It is used to view the contents of files as seen in the image above showing the contents of *file2*. It can also be used to create and concatenate file
+
+8. **rm** - To delete or remove a file in Linux type this command together with the filename. For example, to delete *file1* create above, type *rm file1*.Then use the command *ls* to confirm if the file has been deleted as seen in te image below
+
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/84ab23ca-7d2f-418f-b9a5-f04bf70a9bf4)
+
+9. **rmdir**- This is an abbrevaition meaning **remove directory**. The command is used to delete a directory. To delete a directory with **rmdir*, two conditions must hold.
+   - you must not be in the directory environment,if you are in the directory environment use the command *cd* to leave the directory environment
+   - if the directory contains files, you have to delete the files before you can delete the directory. This means that *rmdir* can only be used to delete empty directories
+   This is illustrated in the image below
+
+ 
+
+10. 
+
+
+
+
+    
+    
+
+
+
    
 
 
