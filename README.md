@@ -57,14 +57,42 @@ The distribution for this exercise is Ubuntu 22.04 LTS. For each of the commands
 
    ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/84ab23ca-7d2f-418f-b9a5-f04bf70a9bf4)
 
-9. **rmdir**- This is an abbrevaition meaning **remove directory**. The command is used to delete a directory. To delete a directory with **rmdir*, two conditions must hold.
+9. **rmdir**- This is an abbreviation meaning **remove directory**. The command is used to delete a directory. To delete a directory with **rmdir*, two conditions must hold.
    - you must not be in the directory environment,if you are in the directory environment use the command *cd* to leave the directory environment
    - if the directory contains files, you have to delete the files before you can delete the directory. This means that *rmdir* can only be used to delete empty directories
    This is illustrated in the image below
 
+   ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/4219a4e4-3f4b-459b-8c35-336296f705e8)
+
+10. **rm -r** - It is used to delete a directory that is not empty together with its contents.For example, for a Directory *DevOps2* containing *file1* and *fileB*, see the image below illustrating how *DevOps2* was created and deleted
+
+    ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/5c67b8ed-bf47-40cc-bf51-d8ae738ecc82)
+
+    ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/c3b76f5d-7f3b-4af8-9033-586ecea86e10)
+
+11. **sudo su** - To log in to the root environnent, use this command.It is important when you need to perform any administartive task. Adminstrative tasks include User management,package management, system configuration, User autentication, Firewall configuration etc
+
+12. **pwd** - This command means *print working directory*. It is used to show the full working path of a file.
+
+     ![image](https://github.com/Yemmy-Oye/linuxBasicCommands/assets/129787413/e6aa53d2-c5a1-439c-a85b-318ad705845f)
+
+13. **clear** - This used to clear the terminal screen when it is full
+
+14. **history** - To show all the commands that has been used on Linux terminal, just type *history*
+
+15. **useradd -m** - To create a User in Linux and create a home directory for the User, type *useradd -m* and the User name.This is an administrative task, therefore you must be in the root environment before you can create a User. For example, to create a User named Richard and home directory for Richard, see the picture below
+
+    
+
+     
+
+
+
+
+   
  
 
-10. 
+17. 
 
 
 
@@ -75,6 +103,5 @@ The distribution for this exercise is Ubuntu 22.04 LTS. For each of the commands
 
 
    
-
 
     
